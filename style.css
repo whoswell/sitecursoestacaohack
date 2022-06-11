@@ -1,0 +1,44 @@
+/* Estilos por Cel.Lep Tech  */
+
+/* seletor Classe . */
+.active{
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+/* seletor agrupado , */
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #7952b3;
+  border-radius: 5px;
+  color: white !important;
+}
+
+/* Criando classe de imagem de fundo */
+.bg-imagem{
+  height: 48vw; /* vh */
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-imagem p{
+  text-shadow: 4px 4px 8px black;
+  font-size: 4vw;
+}
+
+/* Seletor ID # */
+#agenda th{
+  font-size: 2vw;
+}
+
+#agenda td{
+  /* 100% / 7 colunas */
+  width: calc(100% / 7);
+  /* 100% / 5 linhas */
+  height: calc(100% / 5);
+}
+
